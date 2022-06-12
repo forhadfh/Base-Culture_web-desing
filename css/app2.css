@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+ */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 45px;
+    padding: 0px;
+}
+.navbar-expand-lg .navbar-nav {
+    padding-right: 220px;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu {
+    border: 0px;
+    border-radius: 1px;
+}
+.dropdown-item:hover{
+    background: rgb(139, 246, 125) !important;
+}
+.dropdown-item:focus {
+    color: hsl(130, 100%, 99%) !important;
+    background: rgb(139, 246, 125) !important;
+}
+
+.dropdown-item:hover:active{}
+
+
+
+.navbar-brand img {
+    width: 100%;
+    height: 55px;
+}
+
+.right-header {
+    display: flex;
+}
+.right-header .svg-md{}
+.right-header .images {
+    height: 25px;
+    margin-left: 10px;
+}
+.right-header a {
+    text-decoration: none;
+}
+.right-header span{}
+.cartcount {
+    color: #fff;
+    border: 7px solid #000;
+    border-radius: 10px;
+    background: #000;
+    position: absolute;
+    top: 20px;
+    right: 36px;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link::before {
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: all 0.4s cubic-bezier(1, 0.44, 0.01, 1.41) 0s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::before{
+    width: 100%;
+    background-color: rgba(73, 16, 242, 0.537);
+}
+
+/***************************hero_banner_section******************/
+.hero_banner_section {
+    background-image: url(../images/hero_banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 527px;
+    background-position: center;
+}
+.hero_banner_section {
+    display: flex;
+    align-items: center;
+}
+.hero_banner {
+    max-width: 40%;
+}
+.banner_titel{}
+.banner_titel h1 {
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.banner_titel p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner_titel a{}
+.banner_titel .btn_costom {
+    background: #fff;
+    border: 0px;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner_titel .btn_costom:hover{
+    background-color: aqua;
+}
